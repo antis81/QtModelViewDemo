@@ -6,7 +6,7 @@
 class MyTableItem
 {
 public:
-    typedef QMap<int, QVariant> Data;
+    typedef QHash < int, QVariant > Data;
 
 public:
     MyTableItem();
